@@ -8,7 +8,7 @@ COPY package*.json ./
 
 # Skip downloading browsers during npm install (base image already has them)
 ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
-RUN npm ci --omit=dev
+RUN RUN npm install --omit=dev
 
 # Copy the rest of the app
 COPY . .
