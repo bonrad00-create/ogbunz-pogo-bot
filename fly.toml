@@ -1,0 +1,17 @@
+# Fly.io config for a worker (no public HTTP service)
+app = "ogbunz-pogo-bot"
+primary_region = "ams"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  NODE_ENV = "production"
+
+[processes]
+  app = "npm start"
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1
