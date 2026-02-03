@@ -1,0 +1,22 @@
+{
+  "reshiram": {
+    "attackers": ["Mega Rayquaza", "Primal Groudon", "Shadow Salamence", "Zekrom"],
+    "tanks": ["Dialga", "Heatran", "Dragonite", "Lugia"],
+    "cp": "2307 / 2884 (boosted)"
+  },
+  "ho-oh": {
+    "attackers": ["Rampardos", "Rhyperior", "Shadow Tyranitar", "Aggron"],
+    "tanks": ["Blissey", "Snorlax", "Chansey", "Sylveon"],
+    "cp": "2207 / 2759 (boosted)"
+  },
+  "white kyurem": {
+    "attackers": ["Mega Gardevoir", "Shadow Metagross", "Metagross", "Mega Gallade"],
+    "tanks": ["Sylveon", "Togekiss", "Dragonite", "Clefable"],
+    "cp": "2056 / 2570 (boosted)"
+  },
+  "black kyurem": {
+    "attackers": ["Terrakion", "Shadow Machamp", "Lucario", "Conkeldurr"],
+    "tanks": ["Snorlax", "Mewtwo", "Melmetal", "Metagross"],
+    "cp": "2056 / 2570 (boosted)"
+  }
+}
